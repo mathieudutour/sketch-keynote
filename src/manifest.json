@@ -3,15 +3,27 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "📐 Organize",
+      "identifier": "keynote.organize",
+      "script": "./organize.js"
+    },
+    {
+      "name": "▶️ Next",
+      "identifier": "keynote.next",
+      "script": "./next.js"
+    },
+    {
+      "name": "◀️ Previous",
+      "identifier": "keynote.previous",
+      "script": "./previous.js"
     }
   ],
   "menu": {
-    "title": "sketch-keynote",
+    "title": "🎤 Keynote",
     "items": [
-      "my-command-identifier"
+      "keynote.organize",
+      "keynote.next",
+      "keynote.previous"
     ]
   }
 }
